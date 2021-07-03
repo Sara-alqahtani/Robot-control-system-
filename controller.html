@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<button class="button button2" type="button" onClick="parent.location='right.html'" style="position: absolute; left:750px; top:250px">Right</button>
+<button class="button button2" type="button" onClick="parent.location='left.html'" style="position: absolute; right:750px; top:250px">Left</button>
+<button class="button button2" type="button" onClick="parent.location='forward.html'" style="position: absolute; left:575px; top:150px">Forward</button>
+<button class="button button2" type="button" onClick="parent.location='backward.html'" style="position: absolute; left:575px; top:375px">Backward</button>
+<button class="button button2" type="button" onClick="parent.location='stop.html'" style="position: absolute; left:590px; top:250px">Stop</button>
+
+</body>
+</html>
